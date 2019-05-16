@@ -11,7 +11,7 @@ namespace tfp_MVC.Controllers
         // GET: MyTest
         public ActionResult MyTestView()
         {
-            ViewBag.sp = "11111111111";
+            ViewBag.sp = "这是一个测试版本";
             return View();
         }
     }
