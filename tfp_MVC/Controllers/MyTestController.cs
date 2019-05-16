@@ -9,9 +9,9 @@ namespace tfp_MVC.Controllers
     public class MyTestController : Controller
     {
         // GET: MyTest
-        public ActionResult Index()
+        public ActionResult MyTestView()
         {
-            ViewBag.sp = "这是我第一次吃德州扒鸡";
+            ViewBag.sp = "11111111";
             return View();
         }
     }
