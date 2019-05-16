@@ -11,7 +11,7 @@ namespace tfp_MVC.Controllers
         // GET: MyTest
         public ActionResult Index()
         {
-            ViewBag.sp = "这是我第一次吃德州扒鸡";
+         //   ViewBag.sp = "这是我第一次吃德州扒鸡";
             return View();
         }
     }
